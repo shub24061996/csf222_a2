@@ -8,7 +8,7 @@ void arr_print(int a[],int n){
     }
     printf("\n");
 }
-
+//f
 int find_path(int matrix[100][100],int path[100],int n,int curr_length){
     int i,response;
 

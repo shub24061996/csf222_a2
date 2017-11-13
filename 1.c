@@ -13,7 +13,8 @@ int find_path(int matrix[100][100],int path[100],int n,int curr_length){
     int i,response;
 
     if(curr_length == n)
-        if(matrix[path[curr_length-1]][0] == 1) return 1;
+        if(matrix[path[curr_length-1]][0] == 1){   arr_print(path,n+1); return 1; }
+
         else return 0;
 
     for(i=0;i<n;i++){
@@ -58,7 +59,6 @@ int main(){
     matrix[0][n] = 1;
     find_path(matrix,path,n,1);
 
-    arr_print(path,n+1);
     return 0;
 }
 

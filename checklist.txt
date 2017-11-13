@@ -1,7 +1,7 @@
-SOLVED	Q.NO.
+SOLVED 	       Q.NO.
 
 [-]		1
-[ ]		2
+[-]		2
 [ ]		3
 [ ]		4
 [ ]		5
